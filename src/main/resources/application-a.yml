@@ -1,0 +1,9 @@
+server:
+  port: 8081
+  context-path: /testCRUD
+person:
+  name: 小雷
+  age: 21
+#name: 小雷
+#age: 22
+#content: "name: ${name},age: ${age}"
