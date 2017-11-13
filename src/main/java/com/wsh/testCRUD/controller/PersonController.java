@@ -23,7 +23,7 @@ public class PersonController {
      * @return
      */
     @PostMapping(value = "/person")
-    public Person personAdd(@RequestParam("name") String name,
+    public Person personAdd(@RequestParam(value="name",required = true) String name,
                             @RequestParam("age") Integer age) {
         Person person = new Person();
         person.setName(name);

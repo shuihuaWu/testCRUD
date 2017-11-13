@@ -70,8 +70,11 @@
 			</plugin>
 		</plugins>
 	</build>
-
 	<repositories>
+		<repository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/libs-release</url>
+		</repository>
 		<repository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
@@ -92,6 +95,10 @@
 
 	<pluginRepositories>
 		<pluginRepository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/libs-release</url>
+		</pluginRepository>
+		<pluginRepository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
 			<url>https://repo.spring.io/snapshot</url>
@@ -108,6 +115,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
 
 </project>
