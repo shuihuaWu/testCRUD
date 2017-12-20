@@ -14,7 +14,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String say(){
-        return "Hello World!";
+        return "Hello Java World!";
     }
 /*
     @Value("${name}")
